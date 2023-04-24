@@ -32,7 +32,6 @@ const alleOppgaver = [
     "Finn noe sirkelformet i barnehagen!"
 ];
 
-
 const alleOppgaveLyder = [
     "../audio/audio_010.mp3",
     "../audio/audio_011.mp3",
@@ -83,28 +82,28 @@ const bildeBankArr = [
     [],[],[],[],
     //hvilken farge har...
     [
-        "../quiz/070.png",
-        "../quiz/071.png",
-        "../quiz/072.png",
-        "../quiz/073.png"
+        "../quiz/blue.png",
+        "../quiz/pink.png",
+        "../quiz/black.png",
+        "../quiz/grey.png"
     ],
     [
-        "../quiz/070.png",
-        "../quiz/071.png",
-        "../quiz/072.png",
-        "../quiz/073.png"
+        "../quiz/green.png",
+        "../quiz/brown.png",
+        "../quiz/red.png",
+        "../quiz/yellow.png"
     ],
     [
-        "../quiz/070.png",
-        "../quiz/071.png",
-        "../quiz/072.png",
-        "../quiz/073.png"
+        "../quiz/white.png",
+        "../quiz/blue.png",
+        "../quiz/yellow.png",
+        "../quiz/red.png"
     ],
     [
-        "../quiz/070.png",
-        "../quiz/071.png",
-        "../quiz/072.png",
-        "../quiz/073.png"
+        "../quiz/white.png",
+        "../quiz/black.png",
+        "../quiz/red.png",
+        "../quiz/green.png"
     ],
     [],[],[],[],[],[],[],[],[],[],[],
     //hvilket dyr lager denne lyden index 19
@@ -294,6 +293,7 @@ function trykketRestart(evt) {
 function trykketFerdigKnapp(evt) {
     oppgave.classList.add("hidden");
     knapper.classList.add("hidden");
+    kantus.classList.add("hidden");
     takkBilde.classList.remove("hidden");
     restartKnapp.classList.remove("hidden");
     bakgrunn.classList.add("hidden");
