@@ -32,6 +32,7 @@ const alleOppgaver = [
     "Finn noe sirkelformet i barnehagen!"
 ];
 
+
 const alleOppgaveLyder = [
     "../audio/audio_010.mp3",
     "../audio/audio_011.mp3",
