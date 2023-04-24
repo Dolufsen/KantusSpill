@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="img/bakgrunn.jpg" class="bakgrunn" id="bakgrunn">
+
+    <audio id= "audioPlayer" controls autoplay hidden muted class="flyt">
+       <!---> <source src="audio_annet/audio_007.mp3" type="audio/mp3" id="intro"> <-->
+      </audio>
+      <audio id= "backgroundPlayer" controls autoplay hidden muted class="flyt" style="left:700px;top:30px;">
+      </audio>
+
+    <img src="img/kantus.png" class="flyt" style="left:-50px;top:100px" 
+        alt=Kantusfigur id="kantus">
+
+    <img src="/img/ferdig.png" class="hidden flyt" style="left:1275px;top:30px;"
+        alt="et flagg, trykk for å avslutte spillet" id="ferdig">
+
+    <img src="/img/takk.png" class="hidden flyt" alt="bilde, kantus som takker for hjelp" id="takk">
+
+    <img src="/img/restart.png" class="hidden flyt" style="left:1250px;top:500px;"
+        alt="omstart, trykk for å komme tilbake til startsiden" id="restart">
+
+        <img src="/img/start.png" class="hidden flyt" style="left:600px;top:275px;"
+            alt="playikon, trykk for å starte spillet" id="start">
+
+    
+        <img src="/img/videre.png" class="hidden flyt" style="left:600px;top:275px;"
+        alt="to piler, går videre i lydboka" id="videre">
+
+    
+
+
+    <div id="knapper" class="flyt hidden" style="left:370px;top:275px;">
+
+        <img src="/img/trekant.png" style="left:20px;top:275px;" alt="en trekant, trykk for å starte en oppgave"
+            id="trekant">
+        <img src="/img/sirkel.png" style="left:600px;top:275px;" alt=" en sirkel, trykk for å starte en oppgave"
+            id="sirkel">
+        <img src="/img/firkant.png" style="left:1180px;top:275px;" alt="en firkant, trykk for å starte en oppgave"
+            id="firkant">
+
+    </div>
+    <div id="oppgave" class="flyt" style="left:350px;top: 350px">
+        <div id="beskrivelse" style="font-size: 40px; font-weight: bold;"></div> <!--Dette er oppgaveteksten-->
+        <img src=" /img/suksess.png" alt="en check, trykk for å fullføre oppgaven" id="suksess">
+
+    </div>
+
+    <div id="quizContainer" class = "flyt hidden" style="left:150px; top:50px;"> 
+
+        <img id="qc1" src="quiz/070.png" alt="en ku">
+        <img id="qc2" src="quiz/071.png" alt="en katt">
+        <img id="qc3" src="quiz/072.png" alt="en sau">
+        <img id="qc4" src="quiz/073.png" alt="en hund">
+
+    </div>
+
+
+    <div id="bok" class="flyt hidden">
+        <div id="side1" class="hidden">
+            <img src="/img/side_001.png">
+            
+        </div>
+        <div id="side2" class="hidden">
+            <img src="/img/side_002.png">
+        </div>
+        <div id="side3" class="hidden">
+            <img src="/img/side_003.png">
+        </div>
+        <div id="side4" class="hidden">
+            <img src="/img/side_004.png">
+        </div>
+        <div id="side5" class="hidden">
+            <img src="/img/side_005.png">
+        </div>
+        <div id="side6" class="hidden">
+            <img src="/img/side_006.png">
+        </div>
+        <div id="side7" class="hidden">
+            <img src="/img/side_007.png">
+
+            <img src="/img/spill.png" class=" flyt" style="left:600px;top:275px;"
+            alt="en pil, avslutter boka og begynner spillet" id="spill">
+        </div>
+    </div>
+
+
+
+
+    <img src="/img/gjenta.png" class="flyt" style="left:20px;top:50px"
+        alt="en høytaler, trykk for å gjenta forrige lydklipp" id="gjenta" class="flyt">
+
+    </div>
+
+    <script src="src/app.mjs" type="module"></script>
+</body>
+
+</html>
