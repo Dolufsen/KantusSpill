@@ -414,6 +414,7 @@ function visStartKnapp() {
 }
 
 function restartSpill() {
+    /*
     oppgave.classList.add("hidden");
     knapper.classList.add("hidden");
     takkBilde.classList.add("hidden");
@@ -427,6 +428,8 @@ function restartSpill() {
     bortMedRestart();
     bortMedFerdigKnapp();
     visStartKnapp();
+    */
+   location.reload();
 
 }
 function bortMedStartKnapp() {
